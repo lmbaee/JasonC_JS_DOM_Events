@@ -1,0 +1,11 @@
+.todo-container {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    background-color: lightgreen;
+  }
+  
