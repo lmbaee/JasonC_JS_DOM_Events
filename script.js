@@ -26,3 +26,8 @@ clickButton.addEventListener("click", function() {
   clickButton.innerText = "You clicked me!";
 });
 
+function changeBtnStyle() {
+  const btn = document.querySelector(".cool-btn")
+  btn.classList.toggle("glow"); // Toggles glow effect
+ }
+ 
