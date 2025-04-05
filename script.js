@@ -31,3 +31,10 @@ function changeBtnStyle() {
   btn.classList.toggle("glow"); // Toggles glow effect
  }
  
+ let darkModeButton = document.getElementById("darkModeBtn");
+
+darkModeButton.addEventListener("click", function() {
+  document.body.classList.toggle("dark-mode");
+  darkModeButton.innerText =
+    document.body.classList.contains("dark-mode") ? "Light Mode" : "Dark Mode";
+});
